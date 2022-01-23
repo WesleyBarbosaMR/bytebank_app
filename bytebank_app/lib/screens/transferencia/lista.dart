@@ -45,9 +45,9 @@ class _ListaTransferenciasState extends State<ListaTransferencias> {
       debugPrint('chegou');
       debugPrint('$transferenciaRecebida');
       if (transferenciaRecebida != null) {
-        setState() {
+        setState(() {
           widget._transferencias.add(transferenciaRecebida);
-        }
+        });
       }
     });
   }
